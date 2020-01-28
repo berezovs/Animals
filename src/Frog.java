@@ -10,4 +10,8 @@ public class Frog {
 		this.color = color;
 	}
 
+	public String getColor() {
+		return this.color;
+	}
+
 }
