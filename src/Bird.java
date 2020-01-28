@@ -9,8 +9,8 @@ public class Bird {
 	Bird(String color) {
 		this(color, "");
 	}
-
-	Bird(String color, String name) {
+	
+	Bird(String color, String name){
 		this.color = color;
 		this.name = name;
 	}
@@ -18,8 +18,8 @@ public class Bird {
 	public String getColor() {
 		return this.color;
 	}
-
-	public String getName() {
+	
+	public String getName(){
 		return this.name;
 	}
 }
