@@ -3,7 +3,7 @@ public class Frog {
 	private String color;
 
 	Frog() {
-		this("");
+		this("brown");
 	}
 
 	Frog(String color) {
