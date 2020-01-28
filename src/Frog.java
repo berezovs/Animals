@@ -21,7 +21,7 @@ public class Frog {
 	}
 
 	public String getName() {
-		return this.color;
+		return this.name;
 	}
 
 }

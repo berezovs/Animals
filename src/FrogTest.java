@@ -19,6 +19,8 @@ public class FrogTest {
 
 		assertEquals("green", kermit.getColor());
 
+		assertEquals("Kermit", kermit.getName());
+
 	}
 
 }
