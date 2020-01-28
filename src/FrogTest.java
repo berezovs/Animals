@@ -11,6 +11,8 @@ public class FrogTest {
 
 		assertEquals("brown", t.getColor());
 
+		assertEquals("", t.getName());
+
 		Frog redFrog = new Frog("red");
 
 		assertEquals("red", redFrog.getColor());
