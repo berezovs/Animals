@@ -1,7 +1,5 @@
 
-public class Frog {
-	private String color;
-	private String name;
+public class Frog extends Animal {
 
 	Frog() {
 		this("brown");
@@ -12,16 +10,8 @@ public class Frog {
 	}
 
 	Frog(String color, String name) {
-		this.color = color;
-		this.name = name;
-	}
+		super(color, name);
 
-	public String getColor() {
-		return this.color;
-	}
-
-	public String getName() {
-		return this.name;
 	}
 
 }
