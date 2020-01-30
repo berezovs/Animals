@@ -13,4 +13,9 @@ public class Bird extends Animal {
 		super(color, name);
 	}
 
+	@Override
+	public String getMoveStatement() {
+		return "fly";
+	}
+
 }

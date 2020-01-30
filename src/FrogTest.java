@@ -23,6 +23,10 @@ public class FrogTest {
 
 		assertEquals("Kermit", kermit.getName());
 
+		assertEquals(0, kermit.getWarCount());
+
+		assertEquals("move", kermit.getMoveStatement());
+
 	}
 
 }
