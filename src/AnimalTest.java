@@ -14,6 +14,11 @@ public class AnimalTest {
 
 		assertEquals(0, ((Frog) a).getWartCount());
 
+		Animal[] zoo = new Animal[10];
+
+		// cannot initialize abstract but can initialize a container of the
+		// type;
+
 	}
 
 }
