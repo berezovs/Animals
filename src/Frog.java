@@ -20,4 +20,8 @@ public class Frog extends Animal {
 		return wartCount;
 	}
 
+	public String getMoveStatement() {
+		return "move";
+	}
+
 }

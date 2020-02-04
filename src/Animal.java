@@ -1,5 +1,5 @@
 
-public class Animal {
+public abstract class Animal {
 	private String color, name;
 
 	public Animal(String color, String name) {
@@ -15,7 +15,5 @@ public class Animal {
 		return this.name;
 	}
 
-	public String getMoveStatement() {
-		return "move";
-	}
+	abstract public String getMoveStatement();
 }
