@@ -16,7 +16,7 @@ public class Frog extends Animal {
 
 	}
 
-	public int getWarCount() {
+	public int getWartCount() {
 		return wartCount;
 	}
 

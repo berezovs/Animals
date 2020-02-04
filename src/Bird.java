@@ -15,7 +15,7 @@ public class Bird extends Animal {
 
 	@Override
 	public String getMoveStatement() {
-		return "fly";
+		return "I fly when I " + super.getMoveStatement();
 	}
 
 }

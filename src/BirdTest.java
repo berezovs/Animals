@@ -20,7 +20,7 @@ public class BirdTest {
 
 		assertEquals("Big Bird", bigBird.getName());
 
-		assertEquals("fly", bigBird.getMoveStatement());
+		assertEquals("I fly when I move", bigBird.getMoveStatement());
 
 	}
 
